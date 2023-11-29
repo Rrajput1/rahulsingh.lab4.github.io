@@ -1,0 +1,58 @@
+/* Set the font family, background color, margin, and padding for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2d2d2d; /* Dark Gray */
+    color: #ffffff; /* White text on dark background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the maximum width, margin, padding, background color, box shadow, and border radius for the container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333333; /* Dark Slate Gray */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow for contrast */
+    border-radius: 5px;
+}
+
+/* Set the display and margin bottom for labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Set the width, padding, and margin bottom for inputs */
+input {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #474747; /* Darker Gray for input background */
+    color: #ffffff; /* White text on dark input background */
+    border: 1px solid #666666; /* Dark border */
+}
+
+/* Set the padding, background color, color, border, and cursor for buttons */
+button {
+    padding: 10px;
+    background-color: #1a1a1a; /* Almost Black */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Set the color for h2 headings */
+h2 {
+    color: #cccccc; /* Light Gray */
+}
+
+/* Set the margin top for weather info */
+.weather-info {
+    margin-top: 10px;
+}
+
+/* Set the margin for paragraphs */
+p {
+    margin: 5px 0;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <label for="locationSearchInput">Enter Location:</label>
+        <input type="text" id="locationSearchInput">
+        <button onclick="handleLocationSearch()">Search</button>
+
+        <h2 id="todayLocationHeading">Today's Weather</h2>
+        <div class="weather-info">
+            <p>Date: <span id="todayDate"></span></p>
+            <p>Sunrise: <span id="todaySunriseText"></span></p>
+            <p>Sunset: <span id="todaySunsetText"></span></p>
+            <p>Dawn: <span id="todayDawnText"></span></p>
+            <p>Dusk: <span id="todayDuskText"></span></p>
+            <p>Day Length: <span id="todayDayLengthText"></span></p>
+            <p>Solar Noon: <span id="todaySolarNoonText"></span></p>
+            <p>Timezone: <span id="todayTimeZoneText"></span></p>
+        </div>
+
+        <h2 id="tomorrowLocationHeading">Tomorrow's Weather</h2>
+        <div class="weather-info">
+            <p>Tomorrow Date: <span id="tomorrowDate"></span></p>
+            <p>Tomorrow Sunrise: <span id="tomorrowSunriseText"></span></p>
+            <p>Tomorrow Sunset: <span id="tomorrowSunsetText"></span></p>
+            <p>Tomorrow Dawn: <span id="tomorrowDawnText"></span></p>
+            <p>Tomorrow Dusk: <span id="tomorrowDuskText"></span></p>
+            <p>Tomorrow Day Length: <span id="tomorrowDayLengthText"></span></p>
+            <p>Tomorrow Solar Noon: <span id="tomorrowSolarNoonText"></span></p>
+            <p>Tomorrow Timezone: <span id="tomorrowTimeZoneText"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
